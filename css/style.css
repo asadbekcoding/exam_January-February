@@ -43,6 +43,10 @@ ul li a:hover {
        column-gap: 24px;
   background: #1B1D23;
   padding: 25px 32px 22px 37px;
+  transition: 0.4s;
+}
+.btn a:hover {
+  background: #60636D;
 }
 .btn a button {
   color: #FFF;
