@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, button, input{
+    font-family: "League Spartan";
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    width: 252px;
+a{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    background: #1B1D23;
+    padding: 25px 32px 22px 37px;
+    button{
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+}
+header{
+    .nav{
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        padding: 56px 0px 56px 0px;   
+        .navbar{
+            display: flex;
+            align-items: center;
+            column-gap: 95px;
+            ul{
+                display: flex;
+                column-gap: 55px;
+                li{
+                    a{
+                        color: #7D828F;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .header-content{
+        max-width: 1110px;
+        padding: 186px 0px 179px 190px;
+        margin: 0 auto;
+        background-image: url(../img/disktop-header-background-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .header-content-text{
+            max-width: 540px;
+            h1{
+                color: #FFF;
+                font-size: 96px;
+                font-weight: 700;
+                line-height: 80px;
+                letter-spacing: -2px;
+                margin-bottom: 10px;
+            }
+            p{  
+                max-width: 445px;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+                margin-bottom: 41px;
+            }
+        }
+        .square{  
+             display: flex;
+             transform: translate(-270px, 179px);
+            .square-content{
+                width: 80px;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #FFF;
+                p{
+                    color: #7D828F;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+            }
+           .first{
+            background: #1B1D23;
+            p{
+                color: #FFF;
+            }
+           }
+        }
+    }
+}
