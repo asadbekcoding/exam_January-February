@@ -111,4 +111,72 @@ header .header-content .square .first {
 }
 header .header-content .square .first p {
   color: #FFF;
+}
+
+main .welcome {
+  max-width: 1110px;
+  margin: 0 auto;
+  transform: translateY(110px);
+}
+main .welcome h1 {
+  color: #EEEFF4;
+  font-size: 250px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+}
+main .about {
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 190px;
+}
+main .about .about-content-1 {
+  max-width: 445px;
+}
+main .about .about-content-1 h3 {
+  color: #1B1D23;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 43px;
+}
+main .about .about-content-1 .paragraph {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+main .about .about-content-1 .paragraph p {
+  color: #60636D;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+main .about .about-content-2 img {
+  display: block;
+}
+main .about-2 {
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding: 167px 0px 168px 190px;
+  background-image: url(../img/disktop-img-about-2-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .about-2 h1 {
+  max-width: 445px;
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 27px;
+}
+main .about-2 .btn {
+  width: 190px;
 }/*# sourceMappingURL=style.css.map */
