@@ -178,4 +178,79 @@ main{
             width: 190px;
         }
     }
+    .cart{
+        max-width: 1110px;
+        margin: 0 auto;
+        .cart-text{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 64px;
+            h1{
+                color: #1B1D23;
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 64px;
+                letter-spacing: -2px;
+            }
+        }
+        .cart-element{
+            display: flex;
+            justify-content: space-between;
+            .cart-content-1{
+                width: 350px;
+                height: 560px;
+               background-image: url(../img/disktop-img-cart-img-1.png);
+               padding: 457px 0px 0px 40px;
+               h4{
+                color: #FFF;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+               }
+               p{
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+               }
+            }
+            .cart-content-2{
+                width: 350px;
+                height: 560px;
+                background-image: url(../img/disktop-img-cart-img-2.png);
+                padding: 457px 0px 0px 40px;
+               h4{
+                color: #FFF;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+               }
+               p{
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+               }
+            }
+            .cart-content-3{
+                width: 350px;
+                height: 560px;
+                background-image: url(../img/disktop-img-cart-img-3.png);
+                padding: 457px 0px 0px 40px;
+               h4{
+                color: #FFF;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+               }
+               p{
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+               }
+            }
+        }
+    }
 }
