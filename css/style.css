@@ -228,13 +228,15 @@ main .cart .cart-text h1 {
   line-height: 64px;
   letter-spacing: -2px;
 }
+main .cart .cart-text .btn {
+  width: 190px;
+}
 main .cart .cart-element {
   display: flex;
   justify-content: space-between;
 }
 main .cart .cart-element .cart-content-1 {
   width: 350px;
-  height: 560px;
   background-image: url(../img/disktop-img-cart-img-1.png);
   padding: 457px 0px 0px 40px;
 }
@@ -252,7 +254,6 @@ main .cart .cart-element .cart-content-1 p {
 }
 main .cart .cart-element .cart-content-2 {
   width: 350px;
-  height: 560px;
   background-image: url(../img/disktop-img-cart-img-2.png);
   padding: 457px 0px 0px 40px;
 }
@@ -270,7 +271,6 @@ main .cart .cart-element .cart-content-2 p {
 }
 main .cart .cart-element .cart-content-3 {
   width: 350px;
-  height: 560px;
   background-image: url(../img/disktop-img-cart-img-3.png);
   padding: 457px 0px 0px 40px;
 }
@@ -342,5 +342,59 @@ footer .foter .btn {
     max-width: 600px;
     background-image: url(../img/tablet-header-background-img.png);
     padding: 186px 0px 179px 58px;
+  }
+  main .welcome {
+    max-width: 600px;
+    transform: none;
+  }
+  main .welcome h1 {
+    font-size: 120px;
+    line-height: 167%;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  main .about {
+    max-width: 800px;
+    margin-bottom: 233px;
+  }
+  main .about .about-content-1 {
+    align-items: center;
+  }
+  main .about .about-content-2 {
+    display: none;
+  }
+  main .about-2 {
+    max-width: 600px;
+    background-image: url(../img/tablet-img-about-2-img.png);
+    padding: 167px 0px 168px 58px;
+  }
+  main .cart .cart-text {
+    max-width: 573px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+  }
+  main .cart .cart-element {
+    width: 573px;
+    flex-direction: column;
+    row-gap: 24px;
+    margin: 0 auto;
+  }
+  main .cart .cart-element .cart-content-1 {
+    width: 573px;
+    background-image: url(../img/tablet-img-cart-img-1.png);
+    background-repeat: no-repeat;
+    padding: 139px 0px 39px 40px;
+  }
+  main .cart .cart-element .cart-content-2 {
+    width: 573px;
+    background-image: url(../img/tablet-img-cart-img-2.png);
+    background-repeat: no-repeat;
+    padding: 139px 0px 39px 40px;
+  }
+  main .cart .cart-element .cart-content-3 {
+    width: 573px;
+    background-image: url(../img/tablet-img-cart-img-3.png);
+    background-repeat: no-repeat;
+    padding: 139px 0px 39px 40px;
   }
 }/*# sourceMappingURL=style.css.map */
