@@ -311,3 +311,45 @@ footer{
         }
     }
 }
+@media(max-width: 1266px){
+    header{
+        .nav{
+            padding-left: 15px;
+            .navbar{
+                column-gap: 79px;      
+            }
+        }
+        .header-content{
+            .square{
+                display: none;
+            }
+        }
+    }
+    main{
+        .cart{
+            .cart-text{
+                padding: 0px 10px 0px 10px;
+            }
+        }
+    }
+    footer{
+        .foter{
+            padding: 0px 10px 0px 10px;
+            .btn{
+                transform: translate(110px);
+            }
+        }
+    }
+}
+@media(max-width:1060px){
+    header{
+        .nav{
+            max-width: 600px;
+        }
+        .header-content{
+            max-width: 600px;
+            background-image: url(../img/tablet-header-background-img.png);
+            padding: 186px 0px 179px 58px ;
+        }
+    }
+}
