@@ -254,109 +254,85 @@ footer{
             }
         }
     }
-    // main{
-    //     .cart{
-    //         row-gap: 24px;
-    //         .cart-container{
-    //             flex-direction: column;
-    //             align-items: center;
-    //             row-gap: 24px;
-    //             .text{
-    //                 margin: 137px 0px 0px 37px;
-    //             }
-    //             .cart-1{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-1.png);
-    //             }
-    //             .cart-2{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-2.png);
-    //             }
-    //             .cart-3{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-3.png);
-    //             }
-    //         }
-    //         .cart-container{
-    //             .cart-4{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-4.png);
-    //             }
-    //             .cart-5{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-5.png);
-    //             }
-    //             .cart-6{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-6.png);
-    //             }
-    //         }
-    //         .cart-container{
-    //             .cart-7{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-7.png);
-    //             }
-    //             .cart-8{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-8.png);
-    //             }
-    //             .cart-9{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-9.png);
-    //             }
-    //         }
-    //         .cart-container{
-    //             .cart-10{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-10.png);
-    //             }
-    //             .cart-11{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-11.png);
-    //             }
-    //             .cart-12{
-    //                 width: 573px;
-    //                 height: 240px;
-    //                 background-image: url(../img/second-page/tablet-img-cart-img-12.png);
-    //             }
-    //         }
-    //     }
-    // }
-    // footer{
-    //     .foter{
-    //         .foter-content{
-    //             max-width: 612px;
-    //             column-gap: 25px;
-    //             .foter-logo{
-    //                 width: 120px;
-    //                 height: 120px;
-    //             }
-    //             ul{
-    //                 width: 350px;
-    //                 li{
-    //                     width: 75px;
-    //                 }
-    //             }
-    //             .btn{
-    //                 transform: none;
-    //                 a{
-    //                     width: 253px;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+    main{
+        .cart{
+            row-gap: 24px;
+            .cart-container{
+                flex-direction: column;
+                align-items: center;
+                row-gap: 24px;
+                .text{
+                    margin: 137px 0px 0px 37px;
+                }
+                .cart-1{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-1.png);
+                }
+                .cart-2{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-2.png);
+                }
+                .cart-3{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-3.png);
+                }
+            }
+            .cart-container{
+                .cart-4{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-4.png);
+                }
+                .cart-5{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-5.png);
+                }
+                .cart-6{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-6.png);
+                }
+            }
+            .cart-container{
+                .cart-7{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-7.png);
+                }
+                .cart-8{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-8.png);
+                }
+                .cart-9{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-9.png);
+                }
+            }
+            .cart-container{
+                .cart-10{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-10.png);
+                }
+                .cart-11{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-11.png);
+                }
+                .cart-12{
+                    width: 573px;
+                    height: 240px;
+                    background-image: url(../img/second-page/tablet-img-cart-img-12.png);
+                }
+            }
+        }
+    }
 }
 // @media(max-width: 735px){
 //     header{
