@@ -238,4 +238,18 @@ footer .foter .foter-content .foter-logo {
 }
 footer .foter .btn {
   transform: translate(175px);
+}
+
+@media (max-width: 1111px) {
+  header .nav {
+    max-width: 573px;
+    padding-left: 15px;
+  }
+  header .nav .navbar {
+    -moz-column-gap: 79px;
+         column-gap: 79px;
+  }
+  header .nav .navbar .line-text {
+    left: -250px;
+  }
 }/*# sourceMappingURL=style-second.css.map */
