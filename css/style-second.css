@@ -344,4 +344,23 @@ footer .foter .btn {
   footer .foter .foter-content .btn a {
     width: 253px;
   }
+}
+@media (max-width: 735px) {
+  header .nav {
+    max-width: 573px;
+    padding-left: 15px;
+  }
+  header .nav .navbar {
+    -moz-column-gap: 200px;
+         column-gap: 200px;
+  }
+  header .nav .navbar .line-text {
+    display: none;
+  }
+  header .nav .navbar ul {
+    display: none;
+  }
+  header .nav .navbar .menu {
+    display: block;
+  }
 }/*# sourceMappingURL=style-second.css.map */
