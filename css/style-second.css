@@ -93,8 +93,8 @@ header .nav .navbar .line-text {
        column-gap: 48px;
   transform: rotate(90deg);
   position: absolute;
-  top: 100%;
-  left: -210px;
+  top: 125%;
+  left: -270px;
 }
 header .nav .navbar .line-text .liner {
   width: 104px;
@@ -111,4 +111,105 @@ header .nav .navbar .line-text a {
 }
 header .nav .navbar .menu {
   display: none;
+}
+
+main .cart {
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 160px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+main .cart .cart-container {
+  display: flex;
+  justify-content: space-between;
+}
+main .cart .cart-container .text {
+  margin: 457px 0px 0px 37px;
+}
+main .cart .cart-container .text h4 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  color: #fff;
+}
+main .cart .cart-container .text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+  opacity: 0.75;
+}
+main .cart .cart-container .cart-1 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-1.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-2 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-2.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-3 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-3.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-4 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-4.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-5 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-5.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-6 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-6.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-7 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-7.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-8 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-8.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-9 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-9.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-10 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-10.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-11 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-11.png);
+  background-repeat: no-repeat;
+}
+main .cart .cart-container .cart-12 {
+  width: 350px;
+  height: 560px;
+  background-image: url(../img/second-page/disktop-img-cart-img-12.png);
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style-second.css.map */
