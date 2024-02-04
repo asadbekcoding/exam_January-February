@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid blue;
+    outline: 2px solid blue;    
 }
 body, button, input{
     font-family: "League Spartan";
@@ -58,7 +58,8 @@ header{
         max-width: 1110px;
         margin: 0 auto;
         display: flex;
-        padding: 56px 0px 56px 0px;   
+        padding: 56px 0px 56px 0px;
+        position: relative;   
         .navbar{
             display: flex;
             align-items: center;
@@ -76,6 +77,28 @@ header{
                             color: #1B1D23;
                         }
                     }
+                }
+            }
+            .line-text{
+                display: flex;
+                align-items: center;
+                column-gap: 48px;
+                transform: rotate(90deg);
+                position: absolute;
+                top: 100%;
+                left: -210px;
+                .liner{
+                    width: 104px;
+                    height: 1px;
+                    background: #c8ccd8;
+                }
+                a{
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 133%;
+                    letter-spacing: 1em;
+                    color: #c8ccd8;
+                    text-transform: uppercase;
                 }
             }
             .menu{
@@ -404,7 +427,10 @@ footer{
         .nav{
             padding-left: 15px;
             .navbar{
-                column-gap: 79px;      
+                column-gap: 79px;  
+                .line-text{
+                   left: -180px;
+                }    
             }
         }
         .header-content{
@@ -539,6 +565,9 @@ footer{
                 justify-content: space-between;
                 margin: 0 auto;
                 ul{
+                    display: none;
+                }
+                .line-text{
                     display: none;
                 }
                 .menu{
