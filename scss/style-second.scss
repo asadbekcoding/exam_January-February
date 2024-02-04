@@ -114,7 +114,7 @@ main{
         margin-bottom: 160px;
         display: flex;
         flex-direction: column;
-        row-gap: 30px;
+        row-gap: 32px;
         .cart-container{
             display: flex;
             justify-content: space-between;
@@ -212,6 +212,32 @@ main{
                 background-image: url(../img/second-page/disktop-img-cart-img-12.png);
                 background-repeat: no-repeat;
             }
+        }
+    }
+}
+footer{
+    .foter{
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        .foter-content{
+            max-width: 1000px;
+            display: flex;
+            align-items: center;
+            column-gap: 85px;
+            background: #EEEFF4;
+            .foter-logo{
+                width: 200px;
+                height: 200px;
+                background: #1B1D23;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .btn{
+            transform: translate(175px);
         }
     }
 }

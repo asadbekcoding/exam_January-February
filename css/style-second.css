@@ -119,7 +119,7 @@ main .cart {
   margin-bottom: 160px;
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 32px;
 }
 main .cart .cart-container {
   display: flex;
@@ -212,4 +212,30 @@ main .cart .cart-container .cart-12 {
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-12.png);
   background-repeat: no-repeat;
+}
+
+footer .foter {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+footer .foter .foter-content {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 85px;
+       column-gap: 85px;
+  background: #EEEFF4;
+}
+footer .foter .foter-content .foter-logo {
+  width: 200px;
+  height: 200px;
+  background: #1B1D23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foter .btn {
+  transform: translate(175px);
 }/*# sourceMappingURL=style-second.css.map */
