@@ -85,6 +85,9 @@ header .nav .navbar ul li a {
 header .nav .navbar ul li a:hover {
   color: #1B1D23;
 }
+header .nav .navbar .menu {
+  display: none;
+}
 header .header-content {
   max-width: 1110px;
   padding: 186px 0px 179px 190px;
@@ -214,6 +217,8 @@ main .about-2 .btn {
 main .cart {
   max-width: 1110px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 200px;
 }
 main .cart .cart-text {
@@ -377,6 +382,10 @@ footer .foter .btn {
   header .header-content .square {
     display: none;
   }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
   main .cart .cart-text {
     padding: 0px 10px 0px 10px;
   }
@@ -389,15 +398,18 @@ footer .foter .btn {
 }
 @media (max-width: 1060px) {
   header .nav {
-    max-width: 600px;
+    max-width: 573px;
   }
   header .header-content {
-    max-width: 600px;
+    max-width: 573px;
     background-image: url(../img/tablet-header-background-img.png);
     padding: 186px 0px 179px 58px;
   }
+  main {
+    margin-bottom: 200px;
+  }
   main .welcome {
-    max-width: 600px;
+    width: 573px;
     transform: none;
   }
   main .welcome h1 {
@@ -406,7 +418,7 @@ footer .foter .btn {
     letter-spacing: -0.03em;
   }
   main .about {
-    max-width: 600px;
+    width: 573px;
     margin-bottom: 233px;
     padding-left: 0px;
   }
@@ -420,13 +432,15 @@ footer .foter .btn {
     display: none;
   }
   main .about-2 {
-    max-width: 600px;
+    width: 573px;
     background-image: url(../img/tablet-img-about-2-img.png);
     padding: 167px 0px 168px 58px;
   }
+  main .cart {
+    max-width: 573px;
+  }
   main .cart .cart-text {
     max-width: 573px;
-    margin: 0 auto;
     margin-bottom: 85px;
   }
   main .cart .cart-element {
@@ -439,19 +453,20 @@ footer .foter .btn {
     width: 573px;
     background-image: url(../img/tablet-img-cart-img-1.png);
     background-repeat: no-repeat;
-    padding: 139px 0px 39px 40px;
+    background-size: cover;
+    padding: 139px 0px 100px 40px;
   }
   main .cart .cart-element .cart-content-2 {
     width: 573px;
     background-image: url(../img/tablet-img-cart-img-2.png);
     background-repeat: no-repeat;
-    padding: 139px 0px 39px 40px;
+    padding: 139px 0px 100px 40px;
   }
   main .cart .cart-element .cart-content-3 {
     width: 573px;
     background-image: url(../img/tablet-img-cart-img-3.png);
     background-repeat: no-repeat;
-    padding: 139px 0px 39px 40px;
+    padding: 139px 0px 100px 40px;
   }
   footer .foter .foter-content {
     max-width: 612px;
@@ -473,5 +488,31 @@ footer .foter .btn {
   }
   footer .foter .foter-content .btn a {
     width: 253px;
+  }
+}
+@media (max-width: 735px) {
+  header .nav .navbar {
+    -moz-column-gap: 210px;
+         column-gap: 210px;
+    margin: 0 auto;
+  }
+  header .nav .navbar ul {
+    display: none;
+  }
+  header .nav .navbar .menu {
+    display: block;
+  }
+  header .header-content .header-content-text {
+    max-width: 311px;
+  }
+  header .header-content .header-content-text h1 {
+    font-size: 48px;
+    line-height: 100%;
+  }
+  footer .foter {
+    flex-direction: column;
+  }
+  footer .foter .foter-content {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
