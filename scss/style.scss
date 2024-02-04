@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 2px solid blue;
 }
 body, button, input{
     font-family: "League Spartan";
@@ -231,55 +232,107 @@ main{
         .cart-element{
             display: flex;
             justify-content: space-between;
+            height: 560px;
             .cart-content-1{
                 width: 350px;
-               background-image: url(../img/disktop-img-cart-img-1.png);
-               padding: 457px 0px 0px 40px;
-               h4{
-                color: #FFF;
-                font-size: 32px;
-                font-weight: 700;
-                line-height: 40px;
-               }
-               p{
-                color: #FFF;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 24px;
+                background-image: url(../img/disktop-img-cart-img-1.png);
+                background-position: center bottom;
+                position: relative;
+                .heading-1{
+                    position: absolute;
+                    right: -17px;
+                    top: 40px;
+                    h1{
+                        font-weight: 700;
+                        font-size: 250px;
+                        color: #fff;
+                        opacity: 0.5;
+                    }
+                }
+               .cart-content-1-text{
+                position: absolute;
+                left: 40px;
+                bottom: 40px;
+                h4{
+                    color: #FFF;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 40px;
+                   }
+                   p{
+                    color: #FFF;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                   }
                }
             }
             .cart-content-2{
                 width: 350px;
                 background-image: url(../img/disktop-img-cart-img-2.png);
-                padding: 457px 0px 0px 40px;
-               h4{
-                color: #FFF;
-                font-size: 32px;
-                font-weight: 700;
-                line-height: 40px;
-               }
-               p{
-                color: #FFF;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 24px;
+                background-position: center bottom;
+                position: relative;
+                .heading-1{
+                    position: absolute;
+                    right: -17px;
+                    top: 40px;
+                    h1{
+                        font-weight: 700;
+                        font-size: 250px;
+                        color: #fff;
+                        opacity: 0.5;
+                    }
+                }
+               .cart-content-1-text{
+                position: absolute;
+                left: 40px;
+                bottom: 40px;
+                h4{
+                    color: #FFF;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 40px;
+                   }
+                   p{
+                    color: #FFF;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                   }
                }
             }
             .cart-content-3{
                 width: 350px;
                 background-image: url(../img/disktop-img-cart-img-3.png);
-                padding: 457px 0px 0px 40px;
-               h4{
-                color: #FFF;
-                font-size: 32px;
-                font-weight: 700;
-                line-height: 40px;
-               }
-               p{
-                color: #FFF;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 24px;
+                background-position: center bottom;
+                position: relative;
+                .heading-1{
+                    position: absolute;
+                    right: -17px;
+                    top: 40px;
+                    h1{
+                        font-weight: 700;
+                        font-size: 250px;
+                        color: #fff;
+                        opacity: 0.5;
+                    }
+                }
+               .cart-content-1-text{
+                position: absolute;
+                left: 40px;
+                bottom: 40px;
+                h4{
+                    color: #FFF;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 40px;
+                   }
+                   p{
+                    color: #FFF;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                   }
                }
             }
         }
