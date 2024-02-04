@@ -168,6 +168,12 @@ main .about {
   align-items: flex-end;
   padding-left: 190px;
 }
+main .about .line {
+  width: 65px;
+  height: 1px;
+  background: #c8ccd8;
+  display: none;
+}
 main .about .about-content-1 {
   max-width: 445px;
 }
@@ -344,6 +350,31 @@ main .cart .cart-element .cart-content-3 .cart-content-1-text p {
   font-weight: 500;
   line-height: 24px;
 }
+main .btn-long {
+  width: 311px;
+  display: none;
+}
+main .btn-long a {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  background: #1B1D23;
+  padding: 25px 103px 22px 106px;
+  transition: 0.4s;
+}
+main .btn-long a:hover {
+  background: #60636D;
+}
+main .btn-long a button {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 footer .foter {
   max-width: 1110px;
@@ -432,9 +463,9 @@ footer .foter .btn {
     display: none;
   }
   main .about-2 {
-    width: 573px;
+    max-width: 573px;
     background-image: url(../img/tablet-img-about-2-img.png);
-    padding: 167px 0px 168px 58px;
+    padding: 167px 70px 168px 58px;
   }
   main .cart {
     max-width: 573px;
@@ -492,8 +523,10 @@ footer .foter .btn {
 }
 @media (max-width: 735px) {
   header .nav .navbar {
-    -moz-column-gap: 210px;
-         column-gap: 210px;
+    width: 311px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    justify-content: space-between;
     margin: 0 auto;
   }
   header .nav .navbar ul {
@@ -502,6 +535,10 @@ footer .foter .btn {
   header .nav .navbar .menu {
     display: block;
   }
+  header .header-content {
+    padding-left: 25px;
+    background-position: top center;
+  }
   header .header-content .header-content-text {
     max-width: 311px;
   }
@@ -509,10 +546,98 @@ footer .foter .btn {
     font-size: 48px;
     line-height: 100%;
   }
+  main {
+    margin-bottom: 132px;
+  }
+  main .welcome {
+    display: none;
+  }
+  main .about {
+    max-width: 311px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  main .about .line {
+    display: block;
+    margin-top: 72px;
+    margin-bottom: 68px;
+  }
+  main .about .about-content-1 h3 {
+    max-width: 311px;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.04em;
+  }
+  main .about .about-content-1 .paragraph {
+    max-width: 311px;
+  }
+  main .about-2 h1 {
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.04em;
+  }
+  main .cart .cart-text .btn {
+    display: none;
+  }
+  main .cart .cart-element {
+    width: 311px;
+  }
+  main .cart .cart-element .cart-content-1 {
+    max-width: 311px;
+    background-image: url(../img/mobile-img-cart-img-1.png);
+    background-position: left top;
+    background-size: contain;
+  }
+  main .cart .cart-element .cart-content-1 .heading-1 {
+    display: none;
+  }
+  main .cart .cart-element .cart-content-2 {
+    max-width: 311px;
+    background-image: url(../img/mobile-img-cart-img-2.png);
+    background-position: left top;
+    background-size: contain;
+  }
+  main .cart .cart-element .cart-content-2 .heading-1 {
+    display: none;
+  }
+  main .cart .cart-element .cart-content-3 {
+    max-width: 311px;
+    background-image: url(../img/mobile-img-cart-img-3.png);
+    background-position: left top;
+    background-size: contain;
+  }
+  main .cart .cart-element .cart-content-3 .heading-1 {
+    display: none;
+  }
+  main .btn-long {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  footer {
+    background: #eeeff4;
+  }
   footer .foter {
+    max-width: 311px;
     flex-direction: column;
   }
   footer .foter .foter-content {
+    max-width: 311px;
     flex-direction: column;
+    row-gap: 32px;
+  }
+  footer .foter .foter-content .foter-logo {
+    transform: translateY(-60px);
+  }
+  footer .foter .foter-content ul {
+    max-width: 311px;
+    transform: translateY(-60px);
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    text-align: center;
+  }
+  footer .foter .foter-content .btn {
+    transform: translateY(-50px);
   }
 }/*# sourceMappingURL=style.css.map */

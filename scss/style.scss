@@ -163,6 +163,12 @@ main{
         justify-content: space-between;
         align-items: flex-end;
         padding-left: 190px;
+        .line{
+            width: 65px;
+            height: 1px;
+            background: #c8ccd8;
+            display: none;
+        }
         .about-content-1{
             max-width: 445px;
             h3{
@@ -342,6 +348,30 @@ main{
             }
         }
     }
+    .btn-long{
+        width: 311px;
+        display: none; 
+        a{
+            display: flex;
+            align-items: center;
+            column-gap: 24px;
+            background: #1B1D23;
+            padding: 25px 103px 22px 106px;
+            transition: 0.4s;
+            &:hover{
+                background: #60636D;
+            }
+            button{
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+    }
 }
 footer{
     .foter{
@@ -438,9 +468,9 @@ footer{
             }
         }
         .about-2{
-            width: 573px;
+            max-width: 573px;
             background-image: url(../img/tablet-img-about-2-img.png);
-            padding: 167px 0px 168px 58px;
+            padding: 167px 70px 168px 58px;
         }
         .cart{
             max-width: 573px;
@@ -504,7 +534,9 @@ footer{
     header{
         .nav{
             .navbar{
-                column-gap: 210px;
+                width: 311px;
+                column-gap: 0px;
+                justify-content: space-between;
                 margin: 0 auto;
                 ul{
                     display: none;
@@ -515,6 +547,8 @@ footer{
             }
         }
         .header-content{
+            padding-left: 25px;
+            background-position: top center;
             .header-content-text{
                 max-width: 311px;
                 h1{
@@ -524,11 +558,105 @@ footer{
             }
         }
     }
+    main{
+        margin-bottom: 132px;
+        .welcome{
+            display: none;
+        }
+       .about{
+        max-width: 311px;
+         align-items: flex-start;
+         flex-direction: column;
+        .line{
+            display: block;
+            margin-top: 72px;
+            margin-bottom: 68px;
+        }
+        .about-content-1{
+            h3{
+                max-width: 311px;
+                font-size: 48px;
+                line-height: 108%;
+                letter-spacing: -0.04em;
+            }
+           .paragraph{
+            max-width: 311px;
+           }
+        }
+       }
+       .about-2{
+        h1{
+            font-size: 48px;
+            line-height: 108%;
+            letter-spacing: -0.04em;
+        }
+       }
+       .cart{
+          .cart-text{
+            .btn{
+                display: none;
+            }
+          }
+         .cart-element{
+            width: 311px;
+            .cart-content-1{
+                max-width: 311px;
+                background-image: url(../img/mobile-img-cart-img-1.png);
+                background-position: left top;
+                background-size: contain;
+                .heading-1{
+                    display: none;
+                }
+            }
+            .cart-content-2{
+                max-width: 311px;
+                background-image: url(../img/mobile-img-cart-img-2.png);
+                background-position: left top;
+                background-size: contain;
+                .heading-1{
+                    display: none;
+                }
+            }
+            .cart-content-3{
+                max-width: 311px;
+                background-image: url(../img/mobile-img-cart-img-3.png);
+                background-position: left top;
+                background-size: contain;
+                .heading-1{
+                    display: none;
+                }
+            }
+         }
+        }
+        .btn-long{
+         display: block;
+         margin: 0 auto;
+         margin-top: 25px;
+        }
+    }
     footer{
+        background: #eeeff4;
         .foter{
+            max-width: 311px;
             flex-direction: column;
             .foter-content{
+                max-width: 311px;
                 flex-direction: column;
+                row-gap: 32px;
+                .foter-logo{
+                    transform: translateY(-60px);
+                }
+                ul{
+                    max-width: 311px;
+                    transform: translateY(-60px);
+                    flex-direction: column;
+                    align-items: center;
+                    row-gap: 32px;
+                    text-align: center;
+                }
+                .btn{
+                    transform: translateY(-50px);
+                }
             }
         }
     }
