@@ -333,6 +333,30 @@ footer{
             }
         }
     }
+    footer{
+        .foter{
+            .foter-content{
+                max-width: 612px;
+                column-gap: 25px;
+                .foter-logo{
+                    width: 120px;
+                    height: 120px;
+                }
+                ul{
+                    width: 350px;
+                    li{
+                        width: 75px;
+                    }
+                }
+                .btn{
+                    transform: none;
+                    a{
+                        width: 253px;
+                    }
+                }
+            }
+        }
+    }
 }
 // @media(max-width: 735px){
 //     header{

@@ -323,4 +323,25 @@ footer .foter .btn {
     height: 240px;
     background-image: url(../img/second-page/tablet-img-cart-img-12.png);
   }
+  footer .foter .foter-content {
+    max-width: 612px;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
+  footer .foter .foter-content .foter-logo {
+    width: 120px;
+    height: 120px;
+  }
+  footer .foter .foter-content ul {
+    width: 350px;
+  }
+  footer .foter .foter-content ul li {
+    width: 75px;
+  }
+  footer .foter .foter-content .btn {
+    transform: none;
+  }
+  footer .foter .foter-content .btn a {
+    width: 253px;
+  }
 }/*# sourceMappingURL=style-second.css.map */
