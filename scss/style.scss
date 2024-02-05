@@ -2,8 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    outline: 2px solid blue;    
+    box-sizing: border-box;  
 }
 body, button, input{
     font-family: "League Spartan";
@@ -85,8 +84,8 @@ header{
                 column-gap: 48px;
                 transform: rotate(90deg);
                 position: absolute;
-                top: 100%;
-                left: -210px;
+                top: 85%;
+                left: -200px;
                 .liner{
                     width: 104px;
                     height: 1px;
@@ -425,7 +424,6 @@ footer{
 @media(max-width: 1266px){
     header{
         .nav{
-            padding-left: 15px;
             .navbar{
                 column-gap: 79px;  
                 .line-text{
@@ -560,10 +558,10 @@ footer{
     header{
         .nav{
             .navbar{
-                width: 311px;
+                width: 100%;
                 column-gap: 0px;
                 justify-content: space-between;
-                margin: 0 auto;
+                padding: 0px 15px 0px 15px;
                 ul{
                     display: none;
                 }

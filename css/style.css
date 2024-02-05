@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 2px solid blue;
 }
 
 body, button, input {
@@ -93,8 +92,8 @@ header .nav .navbar .line-text {
        column-gap: 48px;
   transform: rotate(90deg);
   position: absolute;
-  top: 100%;
-  left: -210px;
+  top: 85%;
+  left: -200px;
 }
 header .nav .navbar .line-text .liner {
   width: 104px;
@@ -427,9 +426,6 @@ footer .foter .btn {
 }
 
 @media (max-width: 1266px) {
-  header .nav {
-    padding-left: 15px;
-  }
   header .nav .navbar {
     -moz-column-gap: 79px;
          column-gap: 79px;
@@ -550,11 +546,11 @@ footer .foter .btn {
 }
 @media (max-width: 735px) {
   header .nav .navbar {
-    width: 311px;
+    width: 100%;
     -moz-column-gap: 0px;
          column-gap: 0px;
     justify-content: space-between;
-    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
   }
   header .nav .navbar ul {
     display: none;
