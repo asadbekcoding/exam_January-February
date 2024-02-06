@@ -31,6 +31,7 @@ ul li a {
 }
 ul li a:hover {
   color: #1B1D23;
+  border-bottom: 2px solid #1B1D23;
 }
 
 .btn {
@@ -145,72 +146,132 @@ main .cart .cart-container .cart-1 {
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-1.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-1:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-2 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-2.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-2:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-3 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-3.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-3:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-4 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-4.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-4:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-5 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-5.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-5:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-6 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-6.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-6:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-7 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-7.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-7:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-8 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-8.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-8:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-9 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-9.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-9:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-10 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-10.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-10:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-11 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-11.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-11:hover {
+  opacity: 0.6;
 }
 main .cart .cart-container .cart-12 {
   width: 350px;
   height: 560px;
   background-image: url(../img/second-page/disktop-img-cart-img-12.png);
   background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .cart .cart-container .cart-12:hover {
+  opacity: 0.6;
 }
 
 footer .foter {

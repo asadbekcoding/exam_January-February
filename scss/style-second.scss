@@ -25,6 +25,7 @@ ul{
             transition: 0.4s;
             &:hover{
                 color: #1B1D23;
+                border-bottom: 2px solid #1B1D23;
             }
         }
     }
@@ -138,18 +139,33 @@ main{
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-1.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-2{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-2.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-3{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-3.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
         }
         .cart-container{
@@ -158,18 +174,33 @@ main{
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-4.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-5{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-5.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-6{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-6.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
         }
         .cart-container{
@@ -178,18 +209,33 @@ main{
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-7.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-8{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-8.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-9{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-9.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
         }
         .cart-container{
@@ -198,18 +244,33 @@ main{
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-10.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-11{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-11.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
             .cart-12{
                 width: 350px;
                 height: 560px;
                 background-image: url(../img/second-page/disktop-img-cart-img-12.png);
                 background-repeat: no-repeat;
+                transition: 0.3s;
+                cursor: pointer;
+                  &:hover{
+                    opacity: 0.6;
+                }
             }
         }
     }

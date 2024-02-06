@@ -431,7 +431,7 @@ footer .foter .btn {
          column-gap: 79px;
   }
   header .nav .navbar .line-text {
-    left: -180px;
+    left: -200px;
   }
   header .header-content .square {
     display: none;
@@ -439,6 +439,10 @@ footer .foter .btn {
   main {
     display: flex;
     flex-direction: column;
+  }
+  main .about-2 {
+    width: 100%;
+    padding: 167px 0px 168px 190px;
   }
   main .cart .cart-text {
     padding: 0px 10px 0px 10px;
@@ -545,6 +549,9 @@ footer .foter .btn {
   }
 }
 @media (max-width: 735px) {
+  header .nav {
+    padding: 32px 0px 32px 0px;
+  }
   header .nav .navbar {
     width: 100%;
     -moz-column-gap: 0px;
@@ -582,6 +589,7 @@ footer .foter .btn {
     max-width: 311px;
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 113px;
   }
   main .about .line {
     display: block;
@@ -597,10 +605,16 @@ footer .foter .btn {
   main .about .about-content-1 .paragraph {
     max-width: 311px;
   }
+  main .about-2 {
+    margin-bottom: 73px;
+  }
   main .about-2 h1 {
     font-size: 48px;
     line-height: 108%;
     letter-spacing: -0.04em;
+  }
+  main .cart .cart-text {
+    margin-bottom: 50px;
   }
   main .cart .cart-text .btn {
     display: none;
